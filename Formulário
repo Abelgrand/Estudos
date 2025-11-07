@@ -7,7 +7,7 @@
 </head>
 <body>
 
-  <h2>Formulário de Cadastro</h2>
+  <h2>Formulário do Cadastro de um Professor</h2>
 
   <form action="enviar.php" method="post">
 
@@ -17,21 +17,18 @@
     <label for="email">E-mail:</label><br>
     <input type="email" id="email" name="email" required><br><br>
 
-    <label for="senha">Senha:</label><br>
-    <input type="password" id="senha" name="senha" required><br><br>
+    <label for="senha">Formado em:</label><br>
+    <input type="password" id="formado" name="formado" required><br><br>
 
     <label for="telefone">Telefone:</label><br>
-    <input type="tel" id="telefone" name="telefone" placeholder="(+244) 999-999-999"><br><br>
+    <input type="tel" id="telefone" name="telefone" placeholder="999-999-999"><br><br>
 
     <label>Gênero:</label><br>
     <input type="radio" id="masculino" name="genero" value="Masculino">
     <label for="masculino">Masculino</label><br>
 
     <input type="radio" id="feminino" name="genero" value="Feminino">
-    <label for="feminino">Feminino</label><br>
-
-    <input type="radio" id="outro" name="genero" value="Outro">
-    <label for="outro">Outro</label><br><br>
+    <label for="feminino">Feminino</label><br><br>
 
     <label for="endereco">Endereço:</label><br>
     <input type="text" id="endereco" name="endereco" placeholder="Rua, Bairro, Cidade"><br><br>
@@ -47,6 +44,11 @@
     <label for="termos">Concordo com os termos de uso</label><br><br>
 
     <input type="submit" value="Enviar">
+
+  </form>
+
+</body>
+</html>
 
   </form>
 
